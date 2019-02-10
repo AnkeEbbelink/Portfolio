@@ -32,20 +32,170 @@
       padding: 0;
             }
 
-            .row{
-  position: relative;
-  padding: 5vw;
+    .row{
+  position: center;
+  padding: 0vw;
  
 }
 
+.tat{
+    margin-left:27vw;
+    
+}
 .achter{
-  position:relative;
+  position: relative;
   background-color:rgb(1, 71, 99);
   padding-top: 8vw;
-  
-  padding-right: -5vw;
+  top:-30px;
+  border-radius: 3vw 0vw 0vw 0vw;
   
 }
+
+.achter2{
+  position: relative;
+  background-color:black;
+  padding-top: 8vw;
+  margin-top:0px;
+  height: 100vw;
+  
+  
+}
+
+.achter3{
+  position: relative;
+  background-color:white;
+  padding-top: 1vw;
+  margin-top:0px;
+  height: 40vw;
+  
+  
+}
+.stripes{
+   position:relative;
+    
+    
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in;
+   }
+
+   .stripes2{
+   position:relative;
+    
+    
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function:ease-in;
+   }
+
+
+   .voorbij{
+   position:relative;
+    
+    
+    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7s;
+    animation-name: example3;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+   
+    animation-timing-function:linear;
+   }
+
+ 
+
+
+
+
+.ani {
+    width: 2px;
+    height: 2px; 
+    -webkit-animation: example 5s infinite; /* Safari 4.0 - 8.0 */
+     animation: example 5s infinite;
+  
+  
+
+}
+
+.ani2 {
+    width: 2px;
+    height: 2px; 
+    -webkit-animation: example2 5s infinite; /* Safari 4.0 - 8.0 */
+     animation: example2 5s infinite;
+    
+  
+  
+
+}
+
+.ani3 {
+    
+    width: 50px;
+    height: 50px; 
+    -webkit-animation: example3 7s infinite; /* Safari 4.0 - 8.0 */
+     animation: example3 7s infinite;
+    
+  
+  
+
+}
+
+
+
+ 
+ 
+  @-webkit-keyframes example {
+    0%   {left: 733px; top: -240px; width: 2px;}
+  100% {left: 826px; top:-80px; width: 85px;}
+
+}
+
+@-webkit-keyframes example2 {
+    0%   {left: 733px; top: -218px; width: 2px;}
+  100% {left: 818px; top:-60px; width: 85px;}
+
+}
+
+@-webkit-keyframes example3 {
+    0%   {left: 750px; top: -239px; width: 1px;}
+    50% {left: 800px; top:-249px; width: 10px;}
+    75% {left: 822px; top:-249px; width: 15px;}
+    100% {left: 847px; top:-243px; width: 20px;}
+  
+
+}
+
+
+
+   
+    .gor{
+        position:relative;
+        z-index: 0;
+
+
+    }
+
+    h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 7vw;
+        color:rgb(1, 71, 99);
+        margin-top:-7vw;
+        margin-left:2vw;
+        z-index: 2;
+        position: relative;
+
+    }
+
     .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px) }
     .fly-in-text.hidden li:nth-child(2) { transform: translateX(10px) translateY(-100px); }
     .fly-in-text.hidden li:nth-child(3) { transform: translateX(-20px) translateY(100px); }
@@ -114,7 +264,7 @@
         transform:translateX(50%) translateY(50%);
         width: 20%;
         left: 30%;
-        top: 50%;
+        top: 10%;
         
         z-index: 1;
     }
@@ -153,7 +303,7 @@
 
     .animatie{
         position:relative;
-        top:30vw;
+        top:40vw;
         z-index: 1;
        
       }
@@ -165,7 +315,7 @@
       }
      .animatie2{
       position:relative;
-      top:30vw;
+      top:40vw;
       
      
     }
@@ -176,13 +326,15 @@
       }
 
       .work-box {
-  margin-bottom: 0rem;
+  margin:1rem 1rem 3rem 1rem;
+  
+  
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color:#f0642d;
   color:white;
   border-style: solid;
-  width:39vw;
+  width:30vw;
 }
 
 .work-box:hover img {
@@ -234,6 +386,10 @@
   font-family: 'Architects Daughter', cursive;
   text-align: right;
 }
+
+.work-content {
+  padding: 2rem 3% 1rem 4%;
+}
     </style>
     <body id="page-top">
 
@@ -243,9 +399,9 @@
 
 
 
-
-      <div class="animatie">
-        <ul class="fly-in-text hidden">
+   
+        <div class="animatie">
+            <ul class="fly-in-text hidden">
             <li>P</li>
             <li>o</li>
             <li>r</li>
@@ -255,11 +411,11 @@
             <li>l</li>
             <li>i</li>
             <li>o</li>
-        </ul>
-    </div>             
+            </ul>
+        </div>             
 
-    <div class="animatie2">
-        <ul class="fly-Anke hidden">
+        <div class="animatie2">
+            <ul class="fly-Anke hidden">
             <li>A</li>
             <li>n</li>
             <li>k</li>
@@ -273,10 +429,9 @@
             <li>i</li>
             <li>n</li>
             <li>k</li>
-        </ul> 
-    </div>  
-
-
+            </ul> 
+        </div>  
+    
 
 
    
@@ -284,55 +439,93 @@
     <br>
    
 
-
+    <div class="fade-scroll">
     <img src="img/abstract234.jpg" width="100%" class="golf">
-    <img src="img/gorilla1.jpg" width="100%">
-  <div class="achter">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="work-box">
-         
-            <div class="work-img">
-              <img src="img/certiHTML1.jpg" alt="" class="img-fluid" >
-            </div>
-            
-          </a>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="work-box">
-          
-            <div class="work-img">
-              <img src="img/certiAnkeEbbelink.jpg" alt="" class="img-fluid">
-            </div>
-            
-          </a>
-        </div>
-      </div>
     </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="work-box">
+    
+    
+    
+    
+    <img src="img/gorilla1.jpg" width="100%" class="gor">
+    <h2>Certificates</h2>
+    <div class="achter">
+    <section id="service" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+    
+            
+        <div class="row">
+            <div class="col-md-6">
+                <div class="work-box">
          
-            <div class="work-img">
-              <img src="img/certijava.jpg" alt="" class="img-fluid" >
-            </div>
+                    <div class="work-img">
+                        <img src="img/certiHTML1.jpg" alt="" class="img-fluid" >
+                    </div>
             
-          </a>
+                </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="work-box">
+          
+                    <div class="work-img">
+                        <img src="img/certiAnkeEbbelink.jpg" alt="" class="img-fluid">
+                    </div>
+            
+                </a>
+                </div>
+            </div>
         </div>
+         <div class="row">
+             <div class="col-md-6">
+                <div class="work-box">
+         
+                 <div class="work-img">
+                    <img src="img/certijava.jpg" alt="" class="img-fluid" >
+                 </div>
+            
+            </a>
+            </div>
       </div>
       <div class="col-md-6">
-        <div class="work-box">
+            <div class="work-box">
           
-            <div class="work-img">
-              <img src="img/68544A64-15CD-4434-A8B4-989A650373FC.jpeg" alt="" class="img-fluid">
-            </div>
+                <div class="work-img">
+                    <img src="img/68544A64-15CD-4434-A8B4-989A650373FC.jpeg" alt="" class="img-fluid">
+                 </div>
             
-          </a>
-        </div>
-      </div>
+            </a>
+            </div>
+       </div>
     </div>
+</div>
+<br>
+<br> 
+<br>
+<br> 
+</section>
+<section id="black" class="portfolio-mf sect-pt4 route">
+<div class="achter2"></div></section>
 
+<section id="white" class="portfolio-mf sect-pt4 route">
+    <div class="achter3">
+        
+        <img src="img/48064133_193920934890744_3343246463541968896_n.png" width="40%" class="tat">
+                <div class="ani">
+                    <BR>
+                    <img src="img/roadstripes.png" width="100%" class="stripes">
+                </div>
+                <div class="ani2">
+                        <img src="img/roadstripes.png" width="100%" class="stripes2">
+                </div>    
+               
+                <div class="ani3">
+                <img src="img/boom.png" width="100%" class="voorbij">
+                </div>
+                
+                
+                
+    </div>
+</section>
     
     <script type="text/javascript">
         $(function() {
@@ -355,22 +548,23 @@
     
         </script>
         <script type="text/javascript">
-          $(function() {
-        
-            var documentEl = $(document),
-                            fadeElem = $('.fade-scroll');
-                        
-                        
-                        documentEl.on('scroll', function() {
-                            var currScrollPos = documentEl.scrollTop();
-                            
-                            fadeElem.each(function() {
-                                var $this = $(this),
-                                    elemOffsetTop = $this.offset().top;
-                                if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
-                            }); 
-                        });
-                        
-                    });
+            $(function() {
+          
+              var documentEl = $(document),
+                              fadeElem = $('.fade-scroll');
+                          
+                          
+                          documentEl.on('scroll', function() {
+                              var currScrollPos = documentEl.scrollTop();
+                              
+                              fadeElem.each(function() {
+                                  var $this = $(this),
+                                      elemOffsetTop = $this.offset().top;
+                                  if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                              }); 
+                          });
+                          
+                      });
+          </script>
 </body>
 </html>
